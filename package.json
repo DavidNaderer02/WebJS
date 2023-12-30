@@ -1,0 +1,16 @@
+{
+  "name": "node.js-haugiwebsite",
+  "version": "1.0.0",
+  "description": "he",
+  "main": "app.js",
+  "scripts": {
+    "test": "com"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "sqlite3": "^5.1.6"
+  }
+}

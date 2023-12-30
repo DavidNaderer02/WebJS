@@ -1,0 +1,14 @@
+li button {
+    border-style: none;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+li button:hover {
+    color: blue;
+}
+
+form {
+    border: 2px black solid;
+    padding: 1.3rem;
+}

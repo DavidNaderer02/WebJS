@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <script src="Script/index.js"></script>
+</head>
+<body>
+    <div>
+        <div>
+            <span id="path">C:\Users\david\OneDrive\Desktop\NodeJs\NodeJsHaugiWebsite</span>
+            <button onclick="openLink('..')">Parent</button>
+        </div>
+        <ul id="file">
+        </ul>
+        <form method="get" action="php/upload.php" enctype="multipart/form-data">
+            <label for="enteredFile">Enter file</label>
+            <input id="enteredFile" name="file" type="file">
+            <input type="hidden" name="path" value="" id="filed">
+            <button>Submit</button>
+        </form>
+        <script src="Script/file.js"></script>
+    </div>
+</body>
+</html>
